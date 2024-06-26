@@ -1,0 +1,243 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: Arail,sans-serif;
+}
+header{
+    width:100%;
+ 
+}
+.mark-contanier{
+    text-align: center;
+    font-size: 1.8rem;
+}
+.mark{
+margin-top: 10px;
+background-color:#8d878765;
+font-style:italic;
+}
+.head{
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    margin: 5px 0px 5px 0 px;
+    padding-top: 25px;
+    padding-bottom: 10px;
+   
+}
+.social-link{
+    text-decoration: none;
+    padding-right: 2px;
+    color:#fff;
+   
+}
+.brand-whatsapp{
+    background-color:rgb(63, 224, 92);
+    font-size: 1.5rem;
+    box-shadow: 16px;
+    border-radius: 3px;
+    box-sizing: content-box;
+    transition: color 3s;
+    padding: auto; 
+    width:92.66px;
+    height: 26px;
+}
+.brand-whatsapp:hover{
+    color:rgb(24, 182, 53);
+    padding: 3px;
+    border-radius: 10px;
+}
+.whatsapp i{
+  background-color:#fff;
+  font-size: 27px;
+  color:rgb(63, 224, 92);
+  border-radius:5px;
+  max-width: 25px;
+  width: 23.63px;
+  height: 26px;
+}
+.brand-fb{
+    background-color: rgb(18, 149, 240);
+    font-size: 1.5rem;
+    box-shadow: 16px;
+    border-radius: 3px;
+    box-sizing: content-box;
+    transition: color 3s;
+    padding: auto;
+    width:92.66px;
+    height: 26px;
+}
+.brand-fb:hover{
+    color:rgb(18, 149, 240);
+    padding: 3px;
+    border-radius: 10px;
+}
+.fb i{
+    background-color:#fff;
+    font-size: 26px;
+    color: rgb(18, 149, 240);
+    width: 23.63px;
+    height: 26px;
+  
+  }
+.brand-instagram{
+    background: #8a2387; 
+    background: -webkit-linear-gradient(to bottom, #8a2387, #e94057, #f27121); 
+    background: linear-gradient(to bottom, #8a2387, #e94057, #f27121);
+    font-size: 1.5rem;
+    box-shadow: 16px;
+    border-radius: 3px;
+    box-sizing: content-box;
+    transition: color 3s;
+    width:92.66px;
+    height: 26px;
+    padding-top: 1px;
+}
+.brand-instagram:hover{
+    color:#e94057;
+    padding: 3px;
+    border-radius: 10px;
+}
+.instagram i{
+    background: #8a2387; 
+    background: -webkit-linear-gradient(to bottom, #8a2387, #e94057, #f27121); 
+    background: linear-gradient(to bottom, #8a2387, #e94057, #f27121);
+    font-size: 26px;
+    color: #fff;
+    width: 25px;
+    border-radius:6px;
+     padding-left:1px;
+     padding-right: 25px;
+    width: 23.63px;
+    height: 26px;
+    
+}
+.brand-linkedin{
+    background-color:rgb(40, 100, 170);
+    font-size: 1.5rem;
+    box-shadow: 14px;
+    border-radius: 5px;
+    box-sizing: content-box;
+    transition: color 3s; 
+    width:92.66px;
+    height: 26px;
+    padding-top: 2px;
+    
+}
+.brand-linkedin:hover{
+    color:rgb(40, 100, 170);
+    padding: 3px;
+    border-radius: 10px;
+}
+.linkedin i{
+    
+    background-color:#fff;
+     font-size: 27px;
+     color:rgb(40, 100, 170);
+     width: 23px;
+     border-radius:20px;
+     width: 23.63px;
+     height: 26px;
+}
+
+.nav-bar{
+    background-color: #333;
+    color:#fff;
+    padding: 10px 0px;
+    display: flex;
+}
+.contianer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0px 20px;
+    padding: 0 20px;
+}
+.contianer h1{
+    transition: color 4s case-in-out;
+}
+.logo{
+    font-size: 1.5rem;
+    margin-left: 100px;
+
+}
+
+.nav-item{
+    padding-top: 7px;
+    margin-left: 350px;
+}
+.nav-item ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+
+}
+.nav-item ul li{
+    margin: 0 15px;
+}
+.nav-item ul li a{
+    color:#fff;
+    text-decoration: none;
+    padding: 5px 10px;
+    transition: background-color 1s;
+}
+.nav-item ul li a:hover{
+    background-color: #a09d9d;
+    border-radius: 10px;
+}
+.footer-container{
+    background-color:#070707;
+    margin-top: 100px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    color: #fff;
+    padding-top: 10px;
+    
+
+}
+.footer-sec{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    
+}
+.footer-section h4{
+    padding-bottom:5px;
+    font-size:20px ;
+
+}
+.footer-section p{
+    font-size: 15px;
+    white-space: pre-line;
+    padding: 2px;
+}
+.footer-section ul li {
+    list-style: none;
+}
+.footer-section ul li a{
+    text-decoration: none;
+    color:#fff;
+    font-size: 15px;
+}
+.footer-buttom{
+    background-color: #222121;
+   
+}
+.copyright-item{
+    display: flex;
+    justify-content:center;
+    padding-left: 8px;
+}
+.footer-buttom-copyright{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
