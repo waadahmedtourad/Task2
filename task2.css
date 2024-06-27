@@ -16,8 +16,9 @@ header{
 }
 .mark{
 margin-top: 10px;
-background-color:#8d878765;
+background-color:#0f0d0db7;
 font-style:italic;
+color: #fff;
 }
 .head{
     height: auto;
